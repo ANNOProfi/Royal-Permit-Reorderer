@@ -10,7 +10,7 @@ public class RoyalPermitReordererMod : Mod
 
     public RoyalPermitReordererMod(ModContentPack content) : base(content)
     {
-        Log.Message("Hello world from RoyalPermitReorderer");
+        Log.Message("RoyalPermitReorderer loaded successfully");
 
         // initialize settings
         settings = GetSettings<Settings>();

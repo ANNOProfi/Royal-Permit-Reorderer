@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>RoyalPermitReorderer</name>
+    <name>Royal Permit Reorderer</name>
     <author>ANNOProfi</author>
     <supportedVersions>
         <li>1.5</li>
@@ -14,6 +14,10 @@
             <displayName>Harmony</displayName>
             <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
             <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Royalty</packageId>
+            <displayName>Royalty</displayName>
         </li>
     </modDependencies>
 
