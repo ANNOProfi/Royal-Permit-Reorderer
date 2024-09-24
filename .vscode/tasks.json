@@ -18,7 +18,7 @@
                 "kind": "build",
                 "isDefault": false
             },
-            "command": "release.bat",
+            "command": "./release.bat",
         },
     ]
 }

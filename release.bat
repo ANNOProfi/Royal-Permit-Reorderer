@@ -14,5 +14,3 @@ dotnet restore 1.5/Source/RoyalPermitReorderer.sln
 dotnet build 1.5/Source/RoyalPermitReorderer.sln /p:Configuration=Release
 @ECHO OFF
 ECHO Building RoyalPermitReorderer 1.5 - Complete
-ECHO Press any key to exit...
-PAUSE > NUL
