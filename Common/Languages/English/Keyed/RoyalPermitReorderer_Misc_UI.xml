@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
     <RoyalPermitReorderer_SettingsCategory>Royal Permit Reorderer</RoyalPermitReorderer_SettingsCategory>
-    <RoyalPermitReorderer_Settings_SettingName>Some Setting</RoyalPermitReorderer_Settings_SettingName>
+    <RoyalPermitReorderer_Settings_RowLength>Permits per row (default: 3)</RoyalPermitReorderer_Settings_RowLength>
+    <RoyalPermitReorderer_Settings_Horizontal>Order horizontally</RoyalPermitReorderer_Settings_Horizontal>
+    <RoyalPermitReorderer_Settings_Reorder>Reorder permits now</RoyalPermitReorderer_Settings_Reorder>
 </LanguageData>

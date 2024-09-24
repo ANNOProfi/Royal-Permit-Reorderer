@@ -1,6 +1,5 @@
 ﻿using Verse;
 using UnityEngine;
-using HarmonyLib;
 
 namespace RoyalPermitReorderer;
 
@@ -14,11 +13,6 @@ public class RoyalPermitReordererMod : Mod
 
         // initialize settings
         settings = GetSettings<Settings>();
-#if DEBUG
-        Harmony.DEBUG = true;
-#endif
-        Harmony harmony = new Harmony("ANNOProfi.rimworld.RoyalPermitReorderer.main");	
-        harmony.PatchAll();
     }
 
     public override void DoSettingsWindowContents(Rect inRect)
