@@ -1,10 +1,9 @@
 <p>
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=YOUR_WORKSHOP_ITEM_ID">
-  <img alt="Steam Workshop Link" src="https://img.shields.io/static/v1?label=Steam&message=Workshop&color=blue&logo=steam&link=https://steamcommunity.com/sharedfiles/filedetails/?id=YOUR_WORKSHOP_ITEM_ID"/>
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3337274770">
+  <img alt="Steam Workshop Link" src="https://img.shields.io/static/v1?label=Steam&message=Workshop&color=blue&logo=steam&link=https://steamcommunity.com/sharedfiles/filedetails/?id=3337274770"/>
   </a>
 </p>
 
-# Please Remember to replace the YOUR_WORKSHOP_ITEM_ID placeholder once you upload your mod and have an id and remove this line.
 # After you've uploaded it, Rimworld will add a PublishedFileId.txt in your About.xml, remeber to commit it!
 # When making your Steam Workshop description you may find the [Text formatting reference sheet](https://steamcommunity.com/comment/Recommendation/formattinghelp) useful
 
