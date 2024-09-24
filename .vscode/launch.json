@@ -5,10 +5,23 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Rimworld Mod Project",
+            "name": "Debug",
             "type": "clr",
             "request": "launch",
-            "preLaunchTask": "build dll",
+            "preLaunchTask": "build dll debug",
+            "args": [],
+            "program": "../../RimWorldWin64.exe",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "internalConsoleOptions":"neverOpen",
+            "stopAtEntry": true
+        },
+
+        {
+            "name": "Release",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "build dll release",
             "args": [],
             "program": "../../RimWorldWin64.exe",
             "cwd": "${workspaceFolder}",
