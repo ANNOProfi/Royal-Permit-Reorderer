@@ -6,7 +6,7 @@
     <LangVersion>latest</LangVersion>
     <RootNamespace>RoyalPermitReorderer</RootNamespace>
     <AssemblyName>RoyalPermitReorderer</AssemblyName>
-    <OutputPath>../../Assemblies/</OutputPath>
+    <OutputPath>../../1.6/Assemblies/</OutputPath>
     <ZipFilePath>../../../$(AssemblyName).zip</ZipFilePath>
     <ReleasePath>../../../Release</ReleasePath>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -51,7 +51,7 @@
   </ItemGroup>
   
   <ItemGroup Condition="'@(Reference->WithMetadataValue('Identity', 'Assembly-CSharp')->Metadata('HintPath')->Exists())' == ''">
-    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5-*"/>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6-*"/>
   </ItemGroup>
   <PropertyGroup>
     <StartAction>Program</StartAction>

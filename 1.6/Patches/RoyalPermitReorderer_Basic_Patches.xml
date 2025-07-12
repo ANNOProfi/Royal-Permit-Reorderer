@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/RoyalTitlePermitDef</xpath>
+        <value>
+            <li Class="RoyalPermitReorderer.RPR_PermitOrder">
+
+            </li>
+        </value>
+    </Operation>
+</Patch>
